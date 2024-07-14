@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 
 }
 .image{
@@ -11,10 +12,8 @@
     height: 600px;
 
 }
-.card-img{
-    width: 450px;
-    height: 300px;
-}
+
+
 .text{
     margin-top: -40px;
     color:chocolate;
@@ -27,6 +26,7 @@
 
 }
 
+
 .cardiv{
     width: 1000px;
     height: 300px;
@@ -35,6 +35,25 @@
 }
 .main{
     background-color: rgba(0, 0, 0, 0.2);
+}
+.menabout{
+   margin: 50px;
+}
+.collection{
+margin-left: 700px;
+margin-top: -300px;
+width: 200px;
+color: white;
+height: 50px;
+background-color: #2d2a30;
+
+
+}
+.opacity:hover{
+    opacity: 0.5;
+}
+.products{
+margin-right: 00px;
 }
 * {
     padding: 0;
@@ -49,7 +68,7 @@ html{
     background-color: #eaf0f2;
 }
 
-@media (max height:800px)
+@media (max-height:800px)
 {
     footer{
         position: static;
@@ -70,9 +89,15 @@ html{
     vertical-align: top;
 }
 
-.footer-distributed .footer-left, {
-    width: 30%;
+.footer-distributed .footer-left {
+ width: 30%;
 }
+/* .divimg{
+    margin-top: -700px;
+padding-left: 100px;
+
+
+} */
 
 .footer-distributed {
     color: #ffff;
